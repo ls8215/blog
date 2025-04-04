@@ -68,11 +68,11 @@ const Nav = props => {
             </div>
           </Link>
           {post ? (
-            <p className='ml-2 max-h-12 line-clamp-2 overflow-ellipsis font-medium text-gray-800 dark:text-gray-300 header-name'>
+            <p className='ml-2 max-h-12 line-clamp-2 overflow-ellipsis font-medium text-gray-800 dark:text-gray-300 header-name leading-6 h-6'>
               {post?.title}
             </p>
           ) : (
-            <p className='logo line-clamp-1 overflow-ellipsis ml-2 font-medium text-gray-800 dark:text-gray-300 header-name whitespace-nowrap mt-[0.2rem]'>
+            <p className='logo line-clamp-1 overflow-ellipsis ml-2 font-medium text-gray-800 dark:text-gray-300 header-name whitespace-nowrap leading-6 h-6'>
               {siteConfig('TITLE')}
               {/* ,{' '}<span className="font-normal">{siteConfig('DESCRIPTION')}</span> */}
             </p>
